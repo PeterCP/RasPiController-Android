@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RasPi Controller</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_options">Opciones</string>
+    <string name="action_refresh">Refrescar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_update">Actualizar</string>
+    <string name="action_usage">Uso</string>
+    <string name="label_add_room">Agregar nuevo Cuarto</string>
+    <string name="label_cancel">Cancelar</string>
+    <string name="label_name">Nombre</string>
+    <string name="label_outpin">Pin de Salida</string>
+    <string name="label_room">Cuarto</string>
+    <string name="label_save">Guardar</string>
+    <string name="label_type">Tipo</string>
+    <string name="message_create_success">Se creó %1$s.</string>
+    <string name="message_delete_success">Se eliminó %1$s.</string>
+    <string name="message_error">Error: %1$s.</string>
+    <string name="message_error_fallback">Error %1$s. Usando cache local.</string>
+    <string name="message_get_success">Se recibió información para %1$s.</string>
+    <string name="message_http_error">Error HTTP %1$d.</string>
+    <string name="message_http_error_fallback">Error HTTP %1$d. Usando cache local.</string>
+    <string name="message_index_success">Se recibieron %1$d objetos.</string>
+    <string name="message_update_success">Se actualizó %1$s.</string>
+    <string name="navigation_drawer_close">Cerrar drawer de navegación.</string>
+    <string name="navigation_drawer_open">Abrir drawer de navegación.</string>
+    <string name="note_preferences">NOTA: Tras modificar ajustes de idioma debe reinicial la aplicación.</string>
+    <string name="pref_server_url_label">URL del Servidor</string>
+    <string name="pref_locale_label">Idioma</string>
+    <string name="room_options">Opciones de Cuarto</string>
+    <string name="title_activity_add_widget">Agregar aparato</string>
+    <string name="title_activity_chart">Gráfica de Uso</string>
+    <string name="title_activity_rooms">Cuartos</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="title_activity_widgets">Aparatos</string>
+    <string name="widget_options">Opciones de Aparato</string>
+    <string name="label_watts">Watts</string>
+    <string name="title_activity_main">\@string/app_name</string>
+</resources>

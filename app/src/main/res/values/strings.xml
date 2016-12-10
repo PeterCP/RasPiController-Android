@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base Values -->
+    <string name="app_name">RasPi Controller</string>
+
+    <!-- Activity title values -->
+    <string name="title_activity_main">@string/app_name</string>
+    <string name="title_activity_widgets">Widgets</string>
+    <string name="title_activity_add_widget">Add Widget</string>
+    <string name="title_activity_rooms">Rooms</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_chart">Usage Chart</string>
+
+    <!-- Navigation values -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Action menu values -->
+    <string name="action_delete">Delete</string>
+    <string name="action_options">Options</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_update">Update</string>
+    <string name="action_usage">Usage</string>
+
+    <!-- Label values -->
+    <string name="label_add_room">Add a new Room</string>
+    <string name="label_save">Save</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_name">Name</string>
+    <string name="label_type">Type</string>
+    <string name="label_outpin">Output Pin</string>
+    <string name="label_room">Room</string>
+    <string name="label_watts">Watts</string>
+
+    <!-- Context menu title values -->
+    <string name="room_options">Room Options</string>
+    <string name="widget_options">Widget Options</string>
+
+    <!-- Preference values -->
+    <string name="pref_server_url_label">Server URL</string>
+    <string name="pref_locale_label">Language</string>
+    <string name="note_preferences">NOTE: After updating locale settings, the app must be restarted.</string>
+
+    <!-- Network response templates -->
+    <string name="message_index_success">Received %1$d objects.</string>
+    <string name="message_get_success">Received data for %1$s.</string>
+    <string name="message_create_success">Created %1$s.</string>
+    <string name="message_delete_success">Deleted %1$s.</string>
+    <string name="message_update_success">Updated %1$s.</string>
+    <string name="message_error">Error: %1$s</string>
+    <string name="message_error_fallback">Error: %1$s. Fallback to local cache.</string>
+    <string name="message_http_error">HTTP error %1$d.</string>
+    <string name="message_http_error_fallback">HTTP error %1$d. Fallback to local cache.</string>
+
+    <!-- Network connectivity values -->
+    <string name="path_widgets" translatable="false">api/widgets</string>
+    <string name="path_widgets_single" translatable="false">api/widgets/%1$s</string>
+    <string name="path_widgets_usage" translatable="false">api/widgets/%1$s/usage</string>
+    <string name="path_rooms" translatable="false">api/rooms</string>
+    <string name="path_rooms_single" translatable="false">api/rooms/%1$s</string>
+    <string name="path_rooms_usage" translatable="false">api/rooms/%1$s/usage</string>
+
+</resources>
